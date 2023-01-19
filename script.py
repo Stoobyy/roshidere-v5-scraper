@@ -70,7 +70,7 @@ def run(last):
     webhook(last)
 
 def webhook(last = 'None'):
-    webhook = DiscordWebhook(url='https://discord.com/api/webhooks/1058597249770340352/QMg9jatnnBbbrqVZmk7oZNvUyw43wDUl3eRKVWtvCQlmstRPlWUQI3N5S5It4TKTcvvG', username="Roshidere Updater")
+    webhook = DiscordWebhook(url='https://discord.com/api/webhooks/1064570668462649445/TMyONY5uTbSAOdke7m4TqXVChXqLDwOcIDXUIi8iOUQEbq18XO6E2oh_mZ3iq4Sko6q2', username="Roshidere Updater")
     embed = DiscordEmbed(title='Update', description=f'Roshidere Volume 5 Chapters Prologue-{last}', color=242424)
     embed.set_timestamp()
     embed.set_footer(text='Made by Stooby with <3')
@@ -108,3 +108,4 @@ def finish(last):
     compile()
     last = checkForUpdates()
     run(last)
+
