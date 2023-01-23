@@ -72,6 +72,7 @@ def checkForUpdates():
 
 
 if __name__ == '__main__':
+# def botScript():
     volume = 5
     prologue(volume)
     clearall()
